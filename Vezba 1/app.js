@@ -19,5 +19,19 @@
 // var1=text.concat(" ", "world");
 // console.log(var1);
 
-var1=['apple','banana','kiwi']
+// aaaaaaaaaaaaaaa
+
+// var1=['Banana', 'Orange', 'Apple'];
+
+// var2 = var1.join('JS');
+
+// console.log(var1);
+// console.log(var2)
+
+var1=['Banana', 'Orange', 'Apple', 'Mango']
 console.log(var1)
+
+vracenaVrednost=var1.pop()
+
+console.log(var1)
+console.log(vracenaVrednost)
