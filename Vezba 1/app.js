@@ -28,10 +28,10 @@
 // console.log(var1);
 // console.log(var2)
 
-var1=['Banana', 'Orange', 'Apple', 'Mango']
-console.log(var1)
+// var1=['Banana', 'Orange', 'Apple', 'Mango']
+// console.log(var1)
 
-vracenaVrednost=var1.pop()
+// vracenaVrednost=var1.pop()
 
-console.log(var1)
-console.log(vracenaVrednost)
+// console.log(var1)
+// console.log(vracenaVrednost)
