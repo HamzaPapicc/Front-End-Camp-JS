@@ -79,3 +79,46 @@
 // console.log(a)
 
 // console.log(typeof a)
+
+// ShoppingList=['Hleb', 'Mleko']
+
+// odabir= parseInt(prompt('Odabir'))
+
+// if(odabir === 1) {
+//     Namirnica=prompt('Sta hocete da dodate?')
+//     ShoppingList.push(Namirnica)
+//     console.log(ShoppingList)
+// }else if(odabir === 2) {
+//     ShoppingList.pop()
+//     console.log(ShoppingList)
+// }else {
+//     alert("Uneliste pogresan broj")
+// }
+
+
+// ShoppingList=['Hleb', 'Mleko']
+
+// odabir= parseInt(prompt('Odabir'))
+
+// if(odabir === 1) {
+//     Namirnica=prompt('Sta hocete da dodate?')
+//     if (Namirnica.length < 8) {
+//         ShoppingList.push(Namirnica)
+//     }else {
+//         alert('Namirnica je predugacka')
+//     }
+//     console.log(ShoppingList)
+// }else if(odabir === 2) {
+//     ShoppingList.pop()
+//     console.log(ShoppingList)
+// }else {
+//     alert("Uneliste pogresan broj")
+// }
+
+// broj=parseInt(prompt('Unesite vas broj'))
+
+// if(broj%2===0) {
+//     alert('Vas broj je paran')
+// }else {
+//     alert('Vas broj je neparan')
+// }
