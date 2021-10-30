@@ -35,3 +35,47 @@
 
 // console.log(var1)
 // console.log(vracenaVrednost)
+
+// var1=['Banana', 'Orange', 'Apple', 'Mango']
+
+// var2 = var1.splice(0, 2)
+// console.log(var2)
+
+// if (5>7) {
+//     console.log('Nesto bruuuda');
+// }
+// console.log('Nas dalji kod');
+
+// a=17
+
+// if (a !== 12) {
+//     console.log('true');
+// }
+// console.log('Nas dalji kod');
+
+// alert('GASNAMAX')
+
+// brojGodina=prompt('Unesite broj vasih godina:')
+
+// if (brojGodina >= 18) {
+//     console.log('Vi ste punoletni.')
+// }
+// if (brojGodina < 18) {
+//     console.log('Vi niste punoletni.')
+// }
+
+// unetiBroj=prompt('Unesi broj godina')
+
+// alert(`Ovo je ${unetiBroj} nesto`)
+
+// unetiBroj=prompt('Unesi broj godina')
+
+// console.log(unetiBroj)
+
+// console.log(typeof unetiBroj)
+
+// a=parseInt(unetiBroj)
+
+// console.log(a)
+
+// console.log(typeof a)
