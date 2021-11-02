@@ -122,3 +122,61 @@
 // }else {
 //     alert('Vas broj je neparan')
 // }
+
+// broj=prompt('Unesite vas broj')
+
+// if(broj % 3 === 3 && broj % 5 === 0) {
+//     console.log('FizzBuzz')
+// } else if (broj % 3 === 0) {
+//     console.log("Fizz")
+// } else if (broj % 5 === 0) {
+//     console.log('Buzz')
+// }
+
+// x=parseInt(prompt('Unesite prvi broj'))
+
+// y=parseInt(prompt('Unesite drugi broj'))
+
+// if (x > y) {
+//     console.log(`${x} je veci broj`)
+// } else if (x < y) {
+//     console.log(`${y} je veci broj`)
+// } else if (x === y) {
+//     console.log(`${x} i ${y} su jednaki brojevi`)
+// }
+
+unos = prompt('Unesi dan u nedelji')
+
+switch (unos) {
+    case 'Ponedeljak': {
+        console.log('Danas je ponedeljak')
+        break
+    }
+    case 'Utorak': {
+        console.log('Danas je utorak')
+        break
+    }
+    case 'Sreda': {
+        console.log('Danas je sreda')
+        break
+    }
+    case 'Cetvrtak': {
+        console.log('Danas je cetvrtak')
+        break
+    }
+    case 'Petak': {
+        console.log('Danas je petak')
+        break
+    }
+    case 'Subota': {
+        console.log('Danas je subota')
+        break
+    }
+    case 'Nedelja': {
+        console.log('Danas je nedelja')
+        break
+    }
+    default: {
+        console.log('Pogresan unos')
+    }
+}
