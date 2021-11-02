@@ -145,38 +145,38 @@
 //     console.log(`${x} i ${y} su jednaki brojevi`)
 // }
 
-unos = prompt('Unesi dan u nedelji')
+// unos = prompt('Unesi dan u nedelji')
 
-switch (unos) {
-    case 'Ponedeljak': {
-        console.log('Danas je ponedeljak')
-        break
-    }
-    case 'Utorak': {
-        console.log('Danas je utorak')
-        break
-    }
-    case 'Sreda': {
-        console.log('Danas je sreda')
-        break
-    }
-    case 'Cetvrtak': {
-        console.log('Danas je cetvrtak')
-        break
-    }
-    case 'Petak': {
-        console.log('Danas je petak')
-        break
-    }
-    case 'Subota': {
-        console.log('Danas je subota')
-        break
-    }
-    case 'Nedelja': {
-        console.log('Danas je nedelja')
-        break
-    }
-    default: {
-        console.log('Pogresan unos')
-    }
-}
+// switch (unos) {
+//     case 'Ponedeljak': {
+//         console.log('Danas je ponedeljak')
+//         break
+//     }
+//     case 'Utorak': {
+//         console.log('Danas je utorak')
+//         break
+//     }
+//     case 'Sreda': {
+//         console.log('Danas je sreda')
+//         break
+//     }
+//     case 'Cetvrtak': {
+//         console.log('Danas je cetvrtak')
+//         break
+//     }
+//     case 'Petak': {
+//         console.log('Danas je petak')
+//         break
+//     }
+//     case 'Subota': {
+//         console.log('Danas je subota')
+//         break
+//     }
+//     case 'Nedelja': {
+//         console.log('Danas je nedelja')
+//         break
+//     }
+//     default: {
+//         console.log('Pogresan unos')
+//     }
+// }
