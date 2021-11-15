@@ -180,3 +180,155 @@
 //         console.log('Pogresan unos')
 //     }
 // }
+
+// a = Math.random()*10;
+
+// console.log(a)
+
+// a = []
+
+// unos=parseInt(prompt('Koliko elemenata zelite?'))
+// for (j=0; j < unos; j++) {
+//     vasElement=prompt(`Unesite element ${j + 1}`)
+//     if (vasElement.length > 4) {
+//         a.push(vasElement)
+//     }
+// }
+
+// for (i=0; i < a.length; i++) {
+//     switch (a[i]) {
+//         case 'Banana':
+//             console.log('Voce je zuto')
+//             break
+//         case 'Jabuka':
+//             console.log('Voce je crveno')
+//             break
+//         case 'Grozdje':
+//             console.log('Voce je zeleno')
+//             break
+//         default:
+//             console.log('Nepoznato')
+//     }
+// }
+
+// cars = ['BMW','Audi','Polo']
+
+// for (i=0; i<cars.length; i++) {
+
+// }
+
+// brojevi=[]
+
+// unos=parseInt(prompt('Koliko brojeva zelite da unesete?'))
+// for (j=0; j < unos; j++) {
+//     vasBroj=parseInt(prompt('Unesite broj'))
+//     brojevi.push(vasBroj)
+// }
+
+// maxNum=brojevi[0];
+
+// for (vasBroj of brojevi) {
+//     if (vasBroj > maxNum) {
+//         maxNum = vasBroj
+//     }
+// }
+
+// console.log(maxNum)
+
+// pocetnaVrednost=parseInt(prompt('Unesite pocetnu vrednost'))
+// krajnjaVrednost=parseInt(prompt('Unesite krajnju vrednost'))
+// brojevi=[]
+
+// for(i=pocetnaVrednost; i <=krajnjaVrednost; i++) {
+
+// }
+
+// nesto=''
+// krajnjaVrednost=parseInt(prompt('Unesite krajnju vrednost'))
+
+// for(i=0;i<=krajnjaVrednost;i++) {
+//     nesto+='*'
+//     console.log(nesto)
+// }
+
+// tekst=''
+
+// for(i=1; i<6; i++) {
+//     for(j=0; j < i ;j++) {
+//         tekst+='*'
+//     }
+//     console.log(tekst)
+//     tekst=''
+// }
+
+
+// for (i=5; i>0; i--) {
+//     console.log(i)
+// }
+
+
+// rec='dajgi'
+// drugaRec=''
+
+// for(i=rec.length; i>0; i--) {
+    
+// }
+
+// prvaVrednost=parseInt(prompt('Unesite prvu vrednost'))
+// drugaVrednost=parseInt(prompt('Unesite drugu vrednost'))
+
+// if(prvaVrednost%drugaVrednost===0) {
+//     console.log()
+// }
+
+// unos = parseInt(prompt('Pogodi broj'))
+// zamisljeniBroj = 6
+
+// while (unos !== zamisljeniBroj) {
+//     unos = parseInt(prompt('Pokusaj opet'))
+// }
+
+// unos=parseInt(prompt('Unesite broj'))
+
+// zamisljeniBroj=Math.floor(Math.random() *11)
+
+// while(true) {
+//     if (unos===zamisljeniBroj) {
+//         alert('Pogodili ste broj')
+//         break
+//     } else if (unos < zamisljeniBroj) {
+//         unos=parseInt(prompt('Broj je manji of zamisljenog broja'))
+//     } else if (unos > zamisljeniBroj) {
+//         unos=parseInt(prompt('Broj je veci of zamisljenog broja'))
+//     }
+// }
+
+happyNum = [];
+
+limit = 5;
+
+pocetniBroj = 145;
+
+pomocnaVar = 0;
+
+zbir=0
+
+while(true) {
+    while(true) {
+        pomocnaVar = pocetniBroj.toString();
+        for(i = 0; i < pomocnaVar.length; i++) {
+            zbir += parseInt(pomocnaVar[i]) ** 2;
+            if(zbir === 1) {
+                console.log(pocetniBroj);
+                break;
+            } else if(zbir === 4) {
+                break;
+            }
+
+        }
+    }
+    
+    // console.log(pocetniBroj);
+    // pocetniBroj++;
+
+}
