@@ -303,32 +303,65 @@
 //     }
 // }
 
-happyNum = [];
+// happyNum = [];
 
-limit = 5;
+// limit = 5;
+// +
+// pocetniBroj = 145;
 
-pocetniBroj = 145;
+// pomocnaVar = 0;
 
-pomocnaVar = 0;
+// zbir=0
 
-zbir=0
+// while(true) {
+//     while(true) {
+//         pomocnaVar = pocetniBroj.toString();
+//         for(i = 0; i < pomocnaVar.length; i++) {
+//             zbir += parseInt(pomocnaVar[i]) ** 2;
+//             if(zbir === 1) {
+//                 console.log(pocetniBroj);
+//                 break;
+//             } else if(zbir === 4) {
+//                 break;
+//             }
 
-while(true) {
-    while(true) {
-        pomocnaVar = pocetniBroj.toString();
-        for(i = 0; i < pomocnaVar.length; i++) {
-            zbir += parseInt(pomocnaVar[i]) ** 2;
-            if(zbir === 1) {
-                console.log(pocetniBroj);
-                break;
-            } else if(zbir === 4) {
-                break;
-            }
-
-        }
-    }
+//         }
+//     }
     
-    // console.log(pocetniBroj);
-    // pocetniBroj++;
+//     console.log(pocetniBroj);
+//     pocetniBroj++;
 
-}
+// }
+
+
+// var1 = {
+//     ime: 'daris',
+//     prezime: 'gorcevic',
+//     godine: 16
+// }
+// console.log(var1)
+
+// ime = prompt('Unesite vase ime')
+// prezime = prompt('UNesite vase prezime')
+
+// var1 = {
+//     firstname:ime,
+//     lastname:prezime
+// }
+// console.log(var1)
+
+// person= {
+//     firstName: 'John',
+//     lastName: 'Doe',
+//     age: 50,
+//     eyeColor: 'blue'
+// }
+// console.log(person)
+
+// delete person.lastName
+
+// console.log(person)
+
+// unos = parseInt(prompt('Unesite vas broj'))
+
+// console.log(unos-=unos*2)
