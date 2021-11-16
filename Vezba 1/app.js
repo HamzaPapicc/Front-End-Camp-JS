@@ -365,3 +365,17 @@
 // unos = parseInt(prompt('Unesite vas broj'))
 
 // console.log(unos-=unos*2)
+
+unos = prompt('Proveri da li je revc palindrom')
+
+var1 = ""
+
+for (i = unos.length - 1; i >= 0; i--) {
+    var1 += unos[i] 
+}
+
+if (var1 === unos) {
+    console.log('Palindrom je')
+} else {
+    console.log('Nije palindrom')
+}
