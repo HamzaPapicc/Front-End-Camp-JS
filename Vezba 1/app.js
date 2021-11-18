@@ -395,3 +395,4 @@ if(pomocnaVar === 0) {
 } else {
     console.log(`Vasa rec ima ${pomocnaVar} slova o`)
 }
+
