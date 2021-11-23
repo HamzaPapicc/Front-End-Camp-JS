@@ -381,18 +381,18 @@
 // }
 
 
-unos = prompt('Proverite koliko vasa rec ima slova o')
+// unos = prompt('Proverite koliko vasa rec ima slova o')
 
-pomocnaVar = 0
+// pomocnaVar = 0
 
-for (i=0; i < unos.length; i++) {
-    if (unos[i] === 'o') {
-        pomocnaVar+=1
-    }
-}
-if(pomocnaVar === 0) {
-    console.log('Vasa rec nema slova o')
-} else {
-    console.log(`Vasa rec ima ${pomocnaVar} slova o`)
-}
+// for (i=0; i < unos.length; i++) {
+//     if (unos[i] === 'o') {
+//         pomocnaVar+=1
+//     }
+// }
+// if(pomocnaVar === 0) {
+//     console.log('Vasa rec nema slova o')
+// } else {
+//     console.log(`Vasa rec ima ${pomocnaVar} slova o`)
+// }
 
