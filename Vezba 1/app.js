@@ -478,19 +478,22 @@
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
-a = () => {
-    let k = "nesto"
+// a = () => {
+//     let k = "nesto"
 
-    console.log("Local function", k)
+//     console.log("Local function", k)
 
-}
+// }
 
-a()
+// a()
 
-b = 7
+// b = 7
 
-c = 11
+// c = 11
 
-k = "Hello world"
+// k = "Hello world"
 
-console.log("Global", k)
+// console.log("Global",)
+
+
+
