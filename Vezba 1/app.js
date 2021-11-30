@@ -497,3 +497,4 @@
 
 
 
+// JavaScript fasha mozak zhestoko
