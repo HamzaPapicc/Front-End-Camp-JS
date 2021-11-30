@@ -499,9 +499,21 @@
 
 // JavaScript fasha mozak zhestoko
 
-mojaF();
+// mojaF();
 
-function mojaF() {
+// function mojaF() {
 
-console.log("Humu humu")
-}
+// console.log("Humu humu")
+// }
+
+//Hoisting
+
+// a()
+
+// a = () => {
+//     console.log('nesto')
+// }
+
+// UVEK PRVO STAVLJA DEKLARACIJE PA SAV OSALI KOD
+
+const v = 5;
