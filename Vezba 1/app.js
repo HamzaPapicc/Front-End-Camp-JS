@@ -498,3 +498,10 @@
 
 
 // JavaScript fasha mozak zhestoko
+
+mojaF();
+
+function mojaF() {
+
+console.log("Humu humu")
+}
