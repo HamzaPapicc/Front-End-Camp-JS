@@ -528,6 +528,10 @@
 // console.log(elements)
 
 
-elements = document.querySelector(".main")
+// elements = document.querySelector(".main")
 
-console.log(elements)
+// console.log(elements)
+
+
+elements = document.getElementById("glavniNaslov")
+elements.style.backgroundColor = "red"
