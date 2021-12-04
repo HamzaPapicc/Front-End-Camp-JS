@@ -532,6 +532,19 @@
 
 // console.log(elements)
 
+// elements = document.getElementById("glavniNaslov")
+// elements.style.backgroundColor = "red"
 
-elements = document.getElementById("glavniNaslov")
-elements.style.backgroundColor = "red"
+// const handler = () => {
+//     el = document.getElementById("sporedniNaslov");
+//     el.style.backgroundColor = "blue";
+//     el.style.color = "white";
+//     el.style.margin = "50px"
+// }
+
+const handler = () => {
+    el = document.getElementById("paragraf")
+    el.style.backgroundColor = "blue"
+    el.style.color = "white"
+    el.innerText = "nemome stiskat"
+}
