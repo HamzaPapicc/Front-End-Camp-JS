@@ -528,3 +528,6 @@
 // console.log(elements)
 
 
+elements = document.querySelector(".main")
+
+console.log(elements)
