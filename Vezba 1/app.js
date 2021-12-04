@@ -518,6 +518,13 @@
 
 // const v = 5;
 
-mainH = document.getElementById("glavniNaslov")
+// mainH = document.getElementById("glavniNaslov")
 
-mainH.innerText = "hahahahahahahahahaha"
+// mainH.innerText = "hahahahahahahahahaha"
+
+
+// elements = document.getElementsByClassName("main")
+
+// console.log(elements)
+
+
