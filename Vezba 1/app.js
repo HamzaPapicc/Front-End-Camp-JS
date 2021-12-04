@@ -516,4 +516,8 @@
 
 // UVEK PRVO STAVLJA DEKLARACIJE PA SAV OSALI KOD
 
-const v = 5;
+// const v = 5;
+
+mainH = document.getElementById("glavniNaslov")
+
+mainH.innerText = "hahahahahahahahahaha"
