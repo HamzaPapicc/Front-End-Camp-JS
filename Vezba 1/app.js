@@ -542,9 +542,29 @@
 //     el.style.margin = "50px"
 // }
 
+// const handler = () => {
+//     el = document.getElementById("paragraf")
+//     el.style.backgroundColor = "blue"
+//     el.style.color = "white"
+//     el.innerText = "nemome stiskat"
+// }
+
+
+// const uradiNesto = () => {
+//     el = document.getElementsByTagName("h2")
+//     for(i of el) {
+//         i.style.backgroundColor = "blue"
+//     }
+// }
+
+// const uradiNestoDrugo = () => {
+//     el = document.getElementsByTagName("h3")
+//     for(i of el) {
+//         i.style.backgroundColor = "red"
+//     }
+// }
+
+
 const handler = () => {
-    el = document.getElementById("paragraf")
-    el.style.backgroundColor = "blue"
-    el.style.color = "white"
-    el.innerText = "nemome stiskat"
+    el = document.getElementById("main").innerHTML = "<div><p>paragraf</p></div>"
 }
