@@ -565,6 +565,11 @@
 // }
 
 
-const handler = () => {
-    el = document.getElementById("main").innerHTML = "<div><p>paragraf</p></div>"
-}
+// const handler = () => {
+//     el = document.getElementById("main").innerHTML = "<div><p>paragraf</p></div>"
+// }
+
+score = document.getElementById("number")
+
+btn1p = document.getElementById("btn+1")
+btn1m = document.getElementById("btn-1")
